@@ -1,0 +1,31 @@
+<html>
+    
+    <h2>
+        Rows where Reviews are Positive but Ratings are not Good!
+    </h2>
+    
+    
+    <body>
+    <table border=2>
+     {% for i,row in data.iterrows() %}
+       <tr>
+           {# This is the comment section #}
+           <th>{{ row['ID']}}</th>
+           <th>{{row['Review URL']}}</th>
+           <th>{{row['Text']}}</th>
+           <th>{{row['Star']}}</th>
+           <th>{{row['Thumbs Up']}}</th>
+           <th>{{row['User Name']}}</th>
+           <th>{{row['Developer Reply']}}</th>
+           <th>{{row['Version']}}</th>
+           <th>{{row['Review Date']}}</th>
+           <th>{{row['App ID']}}</th>
+           <th>{{ value }}</th>
+       </tr>
+     {% endfor %}
+    </table>
+      
+    </body>
+</html>
+
+<!--It uses jinja2 template engine--> 
