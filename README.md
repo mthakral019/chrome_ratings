@@ -2,4 +2,4 @@
 
 Aim of the project: Find out text reviews on Google Chrome app which doesn't match the rating score.
 
-This problem staement falls under NLTK.In order to get the emotion of the review SentimentIntensityAnalyzer is used. 
+This problem staement falls under NLTK.In order to get the emotion of the review SentimentIntensityAnalyzer from NLTK is used. 
